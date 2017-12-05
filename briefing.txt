@@ -1,0 +1,22 @@
+Você esta prestes a dar inicio com a construção do projeto. Há liberdade suficiente para que você siga o caminho que achar mais 
+adequado para atingir o layout alvo. Contudo, há um padrão que você deve seguir para estar em conformidade com os capítulos deste treinamento.
+Nosso layout será dividido em grandes partes, são elas:
+
+1 - Cabeçalho
+2 - Painel Sobre
+3 - Painel Palestrantes
+4 - Formulário de inscrição
+
+Cada capítulo tratará de cada parte individualmente, iniciando com a estrutura HTML para em seguida definir o estilo da parte na qual 
+estamos trabalhando.
+
+Em cad capítulo, haverá um briefing da estrutura e do estilo a serem atingidos, com orientações gerais do instrutor. 
+Por fim, o aluno terá acesso ao gabarito, tanto da estrutura quando do CSS. É importante deixar claro que o gabarito 
+é opcional e pode ser consultado a qualquer momento se assim o aluno desejar. 
+Porém, é importante que ele tente resolver primeiro o problema e só depois comparece seu resultado com o do instrutor, 
+aliás, não será incomum que haja divergência entre os layouts, porém o importante é que a implementação do 
+aluno esteja próxima ao layout esperado.
+
+Por fim, a parte comportamental da página responsável pelas interações ficarão por último, ou seja, toda a parte que envolve JavaScript. A razão disso é que alguns efeitos que aplicaremos precisam do HTML como um todo.
+
+No próximo vídeo teremos um briefing da estrutura HTML do cabeçalho a ser construída.
