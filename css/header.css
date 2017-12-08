@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url("../img/destaque.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: lightseagreen;
+    height: 310px;
+}
+
+header > *, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul :nth-child(2) {
+    margin-left: 10px;
+}
+
+li {
+    background-color: rgba(207,213,231, 0.6);
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #50A3A7;
+    transition: background-color 0.5s ease-in-out;
+}
+
+header h1, header h2, header > a {
+    text-transform: uppercase;
+}
+
+header > h1 {
+    text-shadow: 2px 3px 3px #000;
+    font-size: 3em;
+    margin-top: 15px;
+    color: white;
+}
+
+header > h2 {
+    text-shadow: 2px 3px 3px #000;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: lime;
+}
+
+header > a {
+    color: white;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    width: 190px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Hover #50A3A7 */
