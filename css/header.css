@@ -11,13 +11,7 @@ header a {
     color: white;
 }
 
-header {
-    background-image: url("../img/destaque.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: lightseagreen;
-    height: 310px;
-}
+
 
 header > *, ul {
     display: flex;
@@ -47,6 +41,14 @@ header h1, header h2, header > a {
     text-transform: uppercase;
 }
 
+header {
+    background-image: url("../img/destaque.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: lightseagreen;
+    height: 310px;
+}
+
 header > h1 {
     text-shadow: 2px 3px 3px #000;
     font-size: 3em;
@@ -71,4 +73,20 @@ header > a {
     margin: auto;
     border-radius: 10px;
 }
-/* Hover #50A3A7 */
+
+@media screen and (min-width: 769px) {
+    
+    header {
+        height: 350px;
+    }
+
+    header > h1 {
+        font-size: 4em;
+        margin-top: 15px;
+    }
+
+    header > h2 {
+        font-size: 3.5em;
+        margin-bottom: 40px;
+    }
+}

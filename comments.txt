@@ -1,0 +1,20 @@
+Observações:
+
+Ter mais atenção ao utilizar os comandos, aconteceu com o "background-size",
+por conta da má utilização, demorou um pouco para que perceba que era 
+somente uma vírgula quando o correto é background-size: 100% 100% e estava
+utilizando da forma background-size: 100%, 100%;
+
+Utilizar o Github Pages, por conta do trackeamento das branches uma
+local com o nome de gh-pages e uma remota com o mesmo nome para que 
+possa ser utilizada uma página estática(HTML, CSS, JS), hospedada
+no github.
+
+Alguns comandos utilizados:
+git branch --track gh-pages origin/gh-pages
+git push gh-pages gh-pages
+git branch -t gh-pages origin/gh-pages
+
+Não consegui utilizar o icon com svg :(
+
+
