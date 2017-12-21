@@ -17,6 +17,8 @@ Porém, é importante que ele tente resolver primeiro o problema e só depois co
 aliás, não será incomum que haja divergência entre os layouts, porém o importante é que a implementação do 
 aluno esteja próxima ao layout esperado.
 
-Por fim, a parte comportamental da página responsável pelas interações ficarão por último, ou seja, toda a parte que envolve JavaScript. A razão disso é que alguns efeitos que aplicaremos precisam do HTML como um todo.
+Por fim, a parte comportamental da página responsável pelas interações ficarão por último, ou seja, toda a parte que envolve JavaScript. 
+A razão disso é que alguns efeitos que aplicaremos precisam do HTML como um todo.
 
 No próximo vídeo teremos um briefing da estrutura HTML do cabeçalho a ser construída.
+

@@ -1,0 +1,14 @@
+.titulo {
+    font-size: 2em;
+}
+
+.subTitulo {
+    font-size: 1.3em;
+}
+
+.sobre * {
+    line-height: 2em;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}

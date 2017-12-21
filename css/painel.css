@@ -1,0 +1,46 @@
+main .titulo {
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+main .subTitulo {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+main .titulo, main .subTitulo {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+main {
+    background-color: #F17D50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imgPaletrante {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.descricaoPalestrante {
+    text-transform: capitalize;
+    line-height: 2em;
+}
+
+main li {
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+    width: 240px;
+}
+
+main li h1 {
+    font-weight: bold;
+}

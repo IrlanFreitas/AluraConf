@@ -23,7 +23,7 @@ ul :nth-child(2) {
     margin-left: 10px;
 }
 
-li {
+header li {
     background-color: rgba(207,213,231, 0.6);
     margin-top: 15px;
     padding: 15px;
@@ -32,12 +32,12 @@ li {
     text-align: center;
 }
 
-li:hover {
+header li:hover {
     background-color: #50A3A7;
     transition: background-color 0.5s ease-in-out;
 }
 
-header h1, header h2, header > a {
+header > h1, header h2, header > a {
     text-transform: uppercase;
 }
 
