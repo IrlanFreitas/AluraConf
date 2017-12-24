@@ -1,5 +1,5 @@
 main .titulo {
-    font-size: 2.3em;
+    font-size: 2em;
     text-transform: uppercase;
 }
 
@@ -17,7 +17,7 @@ main .titulo, main .subTitulo {
 main {
     background-color: #F17D50;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .imgPaletrante {
@@ -27,20 +27,45 @@ main {
     margin-bottom: 10px;
 }
 
-.descricaoPalestrante {
+.nomePalestrante {
     text-transform: capitalize;
     line-height: 2em;
 }
 
-main li {
+.palestrante {
     background-color: white;
     margin-top: 15px;
     padding: 10px;
     border-radius: 5%;
     text-align: center;
-    width: 240px;
+    min-width: 240px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-main li h1 {
+.descricaoPalestrante {
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+    height: auto !important;
+}
+
+.descricaoPalestrante li {
+    display: block;
+}
+
+.palestrante h1 {
     font-weight: bold;
+}
+
+.painelPalestrantes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-auto-rows: auto; */
+    /* grid-template-rows: auto auto; */
+    /* grid-auto-rows: minmax(100px, auto); */
+    width: 75vw;
+    margin: auto;
 }

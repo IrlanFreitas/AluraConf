@@ -11,15 +11,13 @@ header a {
     color: white;
 }
 
-
-
-header > *, ul {
+header > *,header ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul :nth-child(2) {
+header ul :nth-child(2) {
     margin-left: 10px;
 }
 
