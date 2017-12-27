@@ -38,7 +38,7 @@ main {
     padding: 10px;
     border-radius: 5%;
     text-align: center;
-    min-width: 240px;
+    width: 225px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -49,20 +49,26 @@ main {
     padding: 10px;
     border-radius: 5%;
     text-align: center;
-    height: auto !important;
+    min-height: 50px;
 }
 
 .descricaoPalestrante li {
     display: block;
 }
 
+.cargoPalestrante {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .palestrante h1 {
     font-weight: bold;
 }
 
 .painelPalestrantes {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     /* grid-auto-rows: auto; */
     /* grid-template-rows: auto auto; */
     /* grid-auto-rows: minmax(100px, auto); */
