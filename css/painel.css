@@ -1,20 +1,20 @@
-main .titulo {
+#painel .titulo {
     font-size: 2em;
     text-transform: uppercase;
 }
 
-main .subTitulo {
+#painel .subTitulo {
     font-size: 1.7em;
     font-weight: bold;
 }
 
-main .titulo, main .subTitulo {
+#painel .titulo, #painel .subTitulo {
     text-align: center;
     color: white;
     margin: 10px;
 }
 
-main {
+#painel {
     background-color: #F17D50;
     padding-top: 10px;
     padding-bottom: 15px;

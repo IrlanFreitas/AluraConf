@@ -1,0 +1,38 @@
+label, button, #inscricao h1 {
+    display: block;
+}
+
+#inscricao h1, button {
+    text-transform: uppercase;
+}
+
+#inscricao {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+#inscricao h1 {
+    color: #F17D50;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+#inscricao input {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+button {
+    margin: auto;
+}
+
+#inscricao label {
+    padding-bottom: 10px;
+}
