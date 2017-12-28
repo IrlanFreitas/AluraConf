@@ -18,3 +18,6 @@ git branch -t gh-pages origin/gh-pages
 Não consegui utilizar o icon com svg :(
 
 
+Entendendo Smooth Scroll.
+
+https://stackoverflow.com/questions/25987451/javascript-smooth-scroll-explained

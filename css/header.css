@@ -62,7 +62,7 @@ header > h2 {
     color: lime;
 }
 
-header > a {
+.botao {
     color: white;
     background-color: lightseagreen;
     border: 1px solid black;
@@ -70,6 +70,7 @@ header > a {
     height: 60px;
     margin: auto;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 769px) {
